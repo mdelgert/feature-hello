@@ -36,3 +36,5 @@ Running `hello` inside the built container will print the greeting provided to i
 - [VS Code Remote Try .NET](https://github.com/microsoft/vscode-remote-try-dotnet)
 - [containers.dev Features](https://containers.dev/features)
 - [containers.dev Implementors Features](https://containers.dev/implementors/features/)
+
+https://containers.dev/implementors/features/#devcontainer-feature-json-properties

@@ -2,12 +2,12 @@
     // https://containers.dev/implementors/features/#devcontainer-feature-json-properties
     "name": "Hello, World!",
     "id": "hello",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A hello world feature",
     "options": {
         "featureVersion": {
           "type": "string",
-          "default": "1.0.3"
+          "default": "1.0.4"
         },
         "greeting": {
             "type": "string",
@@ -17,7 +17,7 @@
                 "hi",
                 "howdy"
             ],
-            "default": "hey",
+            "default": "Hello",
             "description": "Select a pre-made greeting, or enter your own"
         }
     }
