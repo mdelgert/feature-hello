@@ -7,7 +7,7 @@ A hello world feature
 
 ```json
 "features": {
-    "ghcr.io/mdelgert/feature-hello/hello:1": {}
+    "ghcr.io/mdelgert/feature-hello/hello1:latest": {}
 }
 ```
 

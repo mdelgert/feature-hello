@@ -1,7 +1,7 @@
 {
     // https://containers.dev/implementors/features/#devcontainer-feature-json-properties
     "name": "Hello, World!",
-    "id": "hello",
+    "id": "hello1",
     "version": "1.0.0",
     "description": "A hello world feature",
     "options": {
@@ -17,7 +17,7 @@
                 "hi",
                 "howdy"
             ],
-            "default": "Hello",
+            "default": "Hello1",
             "description": "Select a pre-made greeting, or enter your own"
         }
     }

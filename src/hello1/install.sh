@@ -22,7 +22,7 @@ echo "The effective dev container remoteUser's home directory is '$_REMOTE_USER_
 echo "The effective dev container containerUser is '$_CONTAINER_USER'"
 echo "The effective dev container containerUser's home directory is '$_CONTAINER_USER_HOME'"
 
-cat > /usr/local/bin/hello \
+cat > /usr/local/bin/hello1 \
 << EOF
 #!/bin/sh
 RED='\033[0;91m'
@@ -31,4 +31,4 @@ echo "\${RED}${GREETING}, \$(whoami)!\${NC}"
 echo "Version: ${FEATURE_VERSION}"
 EOF
 
-chmod +x /usr/local/bin/hello
+chmod +x /usr/local/bin/hello1
