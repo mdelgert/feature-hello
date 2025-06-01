@@ -15,7 +15,8 @@ A hello world feature
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
+| featureVersion | - | string | 1.0.0 |
+| greeting | Select a pre-made greeting, or enter your own | string | Hello |
 
 
 
