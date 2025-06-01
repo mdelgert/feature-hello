@@ -3,6 +3,10 @@ set -e
 
 echo "Activating feature 'hello'"
 
+FEATURE_VERSION=${FEATUREVERSION:-"unknown"}
+
+echo "Installing Version: $FEATURE_VERSION"
+
 GREETING=${GREETING:-undefined}
 echo "The provided greeting is: $GREETING"
 
@@ -24,7 +28,7 @@ cat > /usr/local/bin/hello \
 RED='\033[0;91m'
 NC='\033[0m' # No Color
 echo "\${RED}${GREETING}, \$(whoami)!\${NC}"
-echo " Version: 1.0.3"
+echo " Version: ${FEATURE_VERSION}"
 EOF
 
 chmod +x /usr/local/bin/hello
