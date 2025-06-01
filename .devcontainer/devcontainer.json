@@ -3,6 +3,7 @@
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
   "features": {
     "ghcr.io/devcontainers/features/git:1": {}
+    // ,"../src/my-feature": {}
   },
   "customizations": {
     "vscode": {
@@ -14,5 +15,6 @@
       }
   },
   "remoteUser": "vscode",
-  "postCreateCommand": "sudo apt-get update && sudo apt-get upgrade -y"
+  // "postCreateCommand": "sudo apt-get update && sudo apt-get upgrade -y"
+  "postCreateCommand": ".devcontainer/prestart.sh"
 }
