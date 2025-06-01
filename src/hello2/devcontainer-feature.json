@@ -1,0 +1,23 @@
+{
+    "name": "Hello, World!",
+    "id": "hello2",
+    "version": "1.0.0",
+    "description": "A hello world feature",
+    "options": {
+        "featureVersion": {
+          "type": "string",
+          "default": "1.0.0"
+        },
+        "greeting": {
+            "type": "string",
+            "proposals": [
+                "hey",
+                "hello",
+                "hi",
+                "howdy"
+            ],
+            "default": "Hello2",
+            "description": "Select a pre-made greeting, or enter your own"
+        }
+    }
+}
