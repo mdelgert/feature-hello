@@ -1,5 +1,5 @@
 
-# Hello, World! (hello)
+# Hello, World! (hello1)
 
 A hello world feature
 
@@ -7,7 +7,7 @@ A hello world feature
 
 ```json
 "features": {
-    "ghcr.io/mdelgert/feature-hello/hello1:latest": {}
+    "ghcr.io/mdelgert/feature-hello/hello1:1": {}
 }
 ```
 
@@ -16,10 +16,10 @@ A hello world feature
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | featureVersion | - | string | 1.0.0 |
-| greeting | Select a pre-made greeting, or enter your own | string | Hello |
+| greeting | Select a pre-made greeting, or enter your own | string | Hello1 |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/mdelgert/feature-hello/blob/main/src/hello/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/mdelgert/feature-hello/blob/main/src/hello1/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
