@@ -3,7 +3,7 @@
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
   "features": {
     "ghcr.io/devcontainers/features/git:1": {},
-    "ghcr.io/mdelgert/feature-hello/hello:latest": {},
+    "ghcr.io/mdelgert/feature-hello/hello1:latest": {},
     "ghcr.io/mdelgert/feature-hello/hello2:latest": {}
     // ,"./features/my-feature": {}
   },
